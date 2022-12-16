@@ -31,20 +31,20 @@ Key features of ZIO Logging:
 In order to use this library, we need to add the following line in our `build.sbt` file:
 
 ```scala
-libraryDependencies += "dev.zio" %% "zio-logging" % "2.1.5"
+libraryDependencies += "dev.zio" %% "zio-logging" % "0.0.0+369-af47d01b-SNAPSHOT"
 ```
 
 There are also some optional dependencies:
 
 ```scala
 // JPL integration
-libraryDependencies += "dev.zio" %% "zio-logging-jpl" % "2.1.5"
+libraryDependencies += "dev.zio" %% "zio-logging-jpl" % "0.0.0+369-af47d01b-SNAPSHOT"
 
 // SLF4j integration
-libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "2.1.5"
+libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "0.0.0+369-af47d01b-SNAPSHOT"
 
 // Using ZIO Logging for SLF4j loggers, usually third-party non-ZIO libraries
-libraryDependencies += "dev.zio" %% "zio-logging-slf4j-bridge" % "2.1.5"
+libraryDependencies += "dev.zio" %% "zio-logging-slf4j-bridge" % "0.0.0+369-af47d01b-SNAPSHOT"
 ```
 
 ## Example
