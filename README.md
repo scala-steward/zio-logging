@@ -6,7 +6,7 @@
 
 [ZIO Logging](https://github.com/zio/zio-logging) is simple logging for ZIO apps, with correlation, context, and pluggable backends out of the box with integrations for common logging backends.
 
-[![Production Ready](https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/zio-logging/workflows/CI/badge.svg) [![Sonatype Releases](https://img.shields.io/nexus/r/https/oss.sonatype.org/dev.zio/zio-logging_2.12.svg?label=Sonatype%20Release)](https://oss.sonatype.org/content/repositories/releases/dev/zio/zio-logging_2.12/) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-logging_2.12.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-logging_2.12/) [![javadoc](https://javadoc.io/badge2/dev.zio/zio-logging-docs_2.13/javadoc.svg)](https://javadoc.io/doc/dev.zio/zio-logging-docs_2.13) [![ZIO Logging](https://img.shields.io/github/stars/zio/zio-logging?style=social)](https://github.com/zio/zio-logging)
+[![Production Ready](https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/zio-logging/workflows/CI/badge.svg) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-logging_2.12.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-logging_2.12/) [![ZIO Logging](https://img.shields.io/github/stars/zio/zio-logging?style=social)](https://github.com/zio/zio-logging)
 
 ## Introduction
 
@@ -27,26 +27,26 @@ Key features of ZIO Logging:
 In order to use this library, we need to add the following line in our `build.sbt` file:
 
 ```scala
-libraryDependencies += "dev.zio" %% "zio-logging" % "2.1.10"
+libraryDependencies += "dev.zio" %% "zio-logging" % "<version>"
 ```
 
 There are also some optional dependencies:
 
 ```scala
 // JPL integration
-libraryDependencies += "dev.zio" %% "zio-logging-jpl" % "2.1.10"
+libraryDependencies += "dev.zio" %% "zio-logging-jpl" % "<version>"
 
 // SLF4j v1 integration
-libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "2.1.10"
+libraryDependencies += "dev.zio" %% "zio-logging-slf4j" % "<version>"
 
 // SLF4j v2 integration
-libraryDependencies += "dev.zio" %% "zio-logging-slf4j2" % "2.1.10"
+libraryDependencies += "dev.zio" %% "zio-logging-slf4j2" % "<version>"
 
 // Using ZIO Logging for SLF4j v1 loggers, usually third-party non-ZIO libraries
-libraryDependencies += "dev.zio" %% "zio-logging-slf4j-bridge" % "2.1.10"
+libraryDependencies += "dev.zio" %% "zio-logging-slf4j-bridge" % "<version>"
 
 // Using ZIO Logging for SLF4j v2 loggers, usually third-party non-ZIO libraries
-libraryDependencies += "dev.zio" %% "zio-logging-slf4j2-bridge" % "2.1.10"
+libraryDependencies += "dev.zio" %% "zio-logging-slf4j2-bridge" % "<version>"
 ```
 
 ## Example
